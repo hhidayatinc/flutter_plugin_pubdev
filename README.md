@@ -14,3 +14,10 @@ Selain itu bisa juga langsung menambhakan pada bagian pubspec.yaml. Namun jika d
 4. Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
 - Langkah 6 memiliki 2 widget yang berbeda. Jika pada widget container awal memiliki child yaitu widget RedTextWidget yang tadi sudah dibuat terlebih dahulu. Sedangkan container ke 2 memiliki child yaitu widget Text.
 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text 
+- maxLines: berfungsi untuk menentukan panjang text
+- minFontSize & maxFontSize: berfungsi untuk menentukan font sekecil dan sebesar mungkin
+- stepGranularity: berfungsi untuk mengurasi ukuran fontSize di setiap langkah
+- presetFontSizes: berfungsi untuk menentukan ukuran font berapa aja yang diperbolehkan, maka minFontsize, maxFontSize, dan stepGranularity akan di abaikan
+- overflowReplacement: berfungsi untuk mencegah text tidak bisa dibaca karena ukuran font yang terlalu kecil
+- textAlign: mengatur posisi text, rata kiri, rata kanan, tengah, atau rata kiri kanan
+
